@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <script>
+        // Credenciales válidas
+        const usuarioValido = "admin";
+        const contraseñaValida = "1234";
+
+        // Solicitar al usuario que ingrese su nombre de usuario
+        let nombreUsuario = prompt("Ingrese su nombre de usuario:");
+            
+        // Solicitar al usuario que ingrese su contraseña
+        let contraseñaUsuario = prompt("Ingrese su contraseña:");
+            
+        // Validar las credenciales ingresadas por el usuario
+        if (nombreUsuario === usuarioValido && contraseñaUsuario === contraseñaValida) {
+            // Mensaje de inicio de sesión exitoso si las credenciales son válidas
+            alert("Inicio de sesión exitoso. ¡Bienvenido!");
+        } else {
+            // Mensaje de error si las credenciales son incorrectas
+            alert("Credenciales incorrectas. Por favor, inténtelo nuevamente.");
+        }
+    </script>
+</body>
+</html>
